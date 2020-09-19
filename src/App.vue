@@ -2,7 +2,7 @@
   <div id="app">
     <SearchBox @inputChange="fetchSearchedUser"></SearchBox>
     <UserList :users="usersList"></UserList>
-    <!-- <h1></!-->
+    
 
     <div class="pagination-container">
       <a href="#" @click="changePage(1)">1</a>
